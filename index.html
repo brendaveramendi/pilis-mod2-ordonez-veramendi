@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expo Vinícola</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="box">
+        <nav>
+          <ul>
+            <li><a href="#event">Evento</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#contact">Registrate</a></li>
+            <li><a href="#weather">Clima</a></li>
+          </ul>
+        </nav>
+        <a href="#home"><img src="./source/cup-modified.png" alt="coup of wine" /></a>
+      </div>
+    </header>
+
+    <section id="home" class="section-home">
+      <article class="title-subtitle">
+        <h4>Expo vinícola</h4>
+        <br>
+        <p>
+          La misión del evento es impulsar la actividad productiva y comercial
+          vitivinícola Argentina, incluyendo bodegas de renombre, productores
+          independientes y producción artesanal, que a lo largo del año han
+          contribuido a poner a Argentina nuevamente en la escena mundial.
+        </p>
+      </article>
+      <article class="image">
+      <img src="./source/wine-2408620.jpg" alt="cup-wine"> 
+      </article>
+      
+    </section>
+
+    <section id="event">
+        <div class="left-box content">
+            <div class="box-content">
+                <iframe class="video" src="https://www.youtube.com/embed/ThPG2ihzrN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <span class="img-description"><strong>Video: </strong>Expo vinicola 2021</span>
+            </div>
+            
+        </div>
+        <div class="right-box content">
+                <h2 class="subtitle">
+                    Acerca de este evento
+                </h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nesciunt numquam itaque, consequatur distinctio nobis dolorem reprehenderit, facere modi quos mollitia inventore libero velit excepturi repudiandae, commodi praesentium nihil provident?
+                </p>
+        </div>
+    </section>
+
+    <section id="about" class="parallax">
+      <div class="left-box content">
+          <h2 class="subtitle text-white">
+            Acerca de nosotros
+          </h2>
+          <p class="description text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus vitae illum odit commodi, repellat voluptas similique architecto vel sed sapiente sequi officia nihil, inventore possimus est, tempore doloribus eaque fugit.
+          </p>
+          <p class="description text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, modi! Nulla quam veritatis atque magnam commodi tempore architecto necessitatibus ratione quos doloremque, ab, sunt eius enim dolorem placeat explicabo neque.
+          </p>
+          <p class="description text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, nobis asperiores voluptatibus magni sequi dolorum, itaque accusantium voluptates corrupti nam sapiente tenetur corporis omnis ex exercitationem tempore voluptas inventore dolores!
+          </p>
+      </div>
+
+      <div class="right-box content">
+        <div class="box-content">
+          <img src="./source/expo2021.jpg" alt="expo2021">
+          <span class="img-description"><strong>Foto: </strong>Expo vinicola 2021</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="left-box content">
+        <h1 class="subtitle">
+          Sumate al evento para potenciar el comercio local. Luego te contactaremos.
+        </h1>
+      </div>
+
+      <div class="right-box form-content">
+        <div>
+          <form action="" id="form">
+            <div class="form-group">
+              <label for="name">Titular</label>
+              <input class="form-control" type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input class="form-control" type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="buisnes">Comercio</label>
+              <input class="form-control" type="text" name="buisnes" id="buisnes">
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefono</label>
+              <input class="form-control" type="number" name="phone" id="phone">
+            </div>
+            <button id="submit" type="submit" class="btn btn-light">Enviar</button>
+          </form>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="weather" class="section-weather-box">
+      <div class="card">
+        <h3 class="tag-text">Clima</h3>
+        <h4 class="name-city"></h4>
+        <p class="description-weather"></p>
+        <div class="temp-info">
+          <img class="weather-icon" src="" alt="Weather icon">
+          <div class="temperature"></div>
+        </div>
+        
+        
+    </section>
+    
+
+
+
+    <footer class="footer-section">
+      <ul class="contact">
+        <li>
+          <img src="./source/whatsapp-1844471_1920.png" alt="icon">
+          <p>Contactanos</p>
+          <a href="https://wa.me/qr/O2AG5P5MXFPVJ1"><p>&#128073;Para más info&#128072;</p></a>
+        </li>         
+      </ul>
+      <p>&#169;Copyrigth Expo Vinícola-2022</p>
+    </footer>
+
+
+    <script src="./main.js"></script>
+  </body>
+</html>
